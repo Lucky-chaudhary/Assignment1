@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/modern-icon-solution-letter-l-png_83405.jpg.png" alt="" width="90" height="83">
+            <h1>Lakhwinder Chaudhary Realty Inc.</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="active.html">Active Listings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="site.html">Sitemap</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact us for your Dream Home</h2><br>
+            <form>
+                <label for="name">Your Name: </label>
+                <input type="text" name="name" id="name"><br><br>
+                <label for="phone">Your Phone Number: </label>
+                <input type="tel" name="phone" id="phone"><br><br>
+                <label for="youremail">Your Email: </label>
+                <input type="email" name="youremail" id="youremail"><br><br>
+
+                <fieldset>
+                    <legend>Property Preferences</legend><br>
+                    <label for="protype">Your Preferred Property Type: </label>
+                    <select name="protype" id="protype">
+                        <option value="RV">RV</option>
+                        <option value="GV">GV</option>
+                        <option value="CV">CV</option>
+                    </select><br><br>
+
+                    <label for="rooms">Number of Rooms: </label>
+                    <select name="rooms" id="rooms">
+                        <option value="One Room">One Room</option>
+                        <option value="Two Rooms">Two Rooms</option>
+                        <option value="Three Rooms">Three Rooms</option>
+                    </select><br><br>
+
+                    <label for="bathrooms">Number of Rooms: </label>
+                    <select name="bathrooms" id="bathrooms">
+                        <option value="One">One</option>
+                        <option value="Two">Two</option>
+                        <option value="Three">Three</option>
+                    </select><br><br>
+
+                    <label for="budget">Budget: $</label>
+                    <input type="number" name="budget" id="budget" value="500000"><br><br>
+
+                    <label for="comments">Other Comments:</label><br>
+                    <textarea name="comments" id="comments" rows="6" cols="60" placeholder="Please enter any other comments you may have here."></textarea><br>
+                </fieldset><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form><br>
+        </main>
+        <aside>
+            <img src="images/lucky.jpeg" alt="" weight="200" height="300">
+            <div>
+                <span class="block">Phone: (416) 123-4567</span>
+                <span class="block">Email: <a href="Lucky.handles11@gmail.com">lakhwinderproperties.ca</a></span>
+            </div>
+        </aside>
+        <footer>
+            Copyright &copy; 2024
+        </footer>
+    </body>
+
+</html>
