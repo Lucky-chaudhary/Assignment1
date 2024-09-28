@@ -1,4 +1,9 @@
-
+/*
+Name: Lakhwinder chaudhary
+StudentId: 301444106
+Date: 28 September, 2024
+File: Services.js
+*/
 import webDevImage from '../assets/web.png'; 
 import mobileAppsImage from '../assets/apps.jpeg';
 import programmingImage from '../assets/genpro.jpeg';

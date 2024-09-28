@@ -1,3 +1,9 @@
+/*
+Name: Lakhwinder chaudhary
+StudentId: 301444106
+Date: 28 September, 2024
+File: About.js
+*/ 
 import React from 'react';
 import myImage from '../assets/mypic.jpg'; 
 

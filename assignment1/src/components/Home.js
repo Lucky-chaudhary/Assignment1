@@ -1,3 +1,10 @@
+/*
+Name: Lakhwinder chaudhary
+StudentId: 301444106
+Date: 28 September, 2024
+File: Home.js
+*/
+
 import React from 'react';
 import aboutImage from '../assets/abtme.avif';
 import projectsImage from '../assets/proimg.jpeg';

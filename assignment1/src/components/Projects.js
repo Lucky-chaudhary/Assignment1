@@ -1,3 +1,9 @@
+/*
+Name: Lakhwinder chaudhary
+StudentId: 301444106
+Date: 28 September, 2024
+File: Project.js
+*/
 import project1Image from '../assets/pr1.jpeg'; 
 import project2Image from '../assets/pr2.jpeg';
 import project3Image from '../assets/pr3.jpeg';

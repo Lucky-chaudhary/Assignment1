@@ -1,4 +1,10 @@
-import { Outlet, NavLink,link } from "react-router-dom";
+/*
+Name: Lakhwinder chaudhary
+StudentId: 301444106
+Date: 28 September, 2024
+File: header.js
+*/
+import { Outlet, NavLink } from "react-router-dom";
 import image_logo from "../../assets/logo.png"
 
 const Header = () => {
